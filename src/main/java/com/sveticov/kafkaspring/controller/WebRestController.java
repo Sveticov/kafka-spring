@@ -1,0 +1,33 @@
+package com.sveticov.kafkaspring.controller;
+
+import com.sveticov.kafkaspring.services.KafkaProducer;
+import com.sveticov.kafkaspring.storage.MessageStorage;
+import org.apache.kafka.common.protocol.types.Field;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping(value = "/jsa/kafka")
+public class WebRestController {
+//    @Autowired
+//    KafkaProducer producer;
+//
+//    @Autowired
+//    MessageStorage storage;
+//
+//    @GetMapping("/producer")
+//    public String producer(@RequestParam("data")String data){
+//        producer.send(data);
+//        return "Done";
+//    }
+
+//    @GetMapping("/consumer")
+//    public String getAllRecivedMessage(){
+//        String messages=storage.toString();
+//        storage.clear();
+//        return messages;
+//    }
+}
